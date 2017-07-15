@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyBehaviorDemo</string>
+    <string name="string_search_text">请输入搜索内容</string>
+    <string name="translate_up_down_behavior">com.example.administrator.mybehaviordemo.utils.TranslateUpDownBehavior</string>
+    <string name="scale_up_show_behavior">com.example.administrator.mybehaviordemo.utils.ScaleUpShowBehavior</string>
+    <string name="scale_down_show_behavior">com.example.administrator.mybehaviordemo.utils.ScaleDownShowBehavior</string>
+
+    <string name="permission_request_denied">Permission request denied</string>
+    <string name="error_gif">x or y bound size should be at least %1$dpx and file size should be no more than %2$sM</string>
+</resources>

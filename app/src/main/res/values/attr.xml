@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CustomShapeImageView">
+        <attr name="shape" format="integer">
+            <enum name="circle" value="1" />
+            <enum name="rectangle" value="2" />
+            <enum name="arc" value="3" />
+        </attr>
+        <attr name="imageBorderWidth" format="dimension" />
+        <attr name="borderColor" format="color" />
+        <attr name="roundRadius" format="dimension" />
+        <attr name="leftTopRadius" format="dimension" />
+        <attr name="rightTopRadius" format="dimension" />
+        <attr name="rightBottomRadius" format="dimension" />
+        <attr name="leftBottomRadius" format="dimension" />
+        <attr name="onlyDrawBorder" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="DrawableTextView">
+        <attr name="drawableSrc" format="reference"/>
+        <attr name="drawableWidth" format="dimension"/>
+        <attr name="drawableHeight" format="dimension"/>
+        <attr name="drawablePosition" >
+            <enum name="left" value="1"/>
+            <enum name="top" value="2"/>
+            <enum name="right" value="3"/>
+            <enum name="bottom" value="4"/>
+        </attr>
+    </declare-styleable>
+
+    <!--自定义RadioButton的属性，可以设置图片大小-->
+    <declare-styleable name="MyRadioButton">
+        <attr name="imgWidth" format="dimension"/>
+        <attr name="imgHeight" format="dimension"/>
+        <attr name="imgTop" format="reference"/>
+        <attr name="imgLeft" format="reference"/>
+        <attr name="imgRight" format="reference"/>
+        <attr name="imgBottom" format="reference"/>
+    </declare-styleable>
+
+    <!--自定义CheckBox的属性，可以设置图片大小-->
+    <declare-styleable name="MyCheckBox">
+        <attr name="checkImgWidth" format="dimension"/>
+        <attr name="checkImgHeight" format="dimension"/>
+        <attr name="checkImgTop" format="reference"/>
+        <attr name="checkImgLeft" format="reference"/>
+        <attr name="checkImgRight" format="reference"/>
+        <attr name="checkImgBottom" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="SearchBarView">
+        <attr name="search_bar_color" format="color|reference"/>
+        <attr name="search_bar_position" format="enum">
+            <enum name="position_left" value="4"/>
+            <enum name="position_right" value="1"/>
+        </attr>
+        <attr name="search_bar_status" format="enum">
+            <enum name="status_close" value="4"/>
+            <enum name="status_open" value="1"/>
+        </attr>
+        <attr name="search_bar_duration" format="integer"/>
+        <attr name="search_bar_hint_text" format="string|reference"/>
+        <attr name="search_bar_icon" format="reference"/>
+        <attr name="search_bar_hint_text_color" format="color|reference"/>
+        <attr name="search_bar_hint_text_size" format="dimension|reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="RectProgress">
+        <attr name="progressValue" format="integer"/>
+        <attr name="progressMax" format="integer"/>
+        <attr name="bgColor" format="color"/>
+        <attr name="progressColor" format="color"/>
+        <attr name="rectRadius" format="dimension"/>
+        <attr name="iconPadding" format="dimension"/>
+        <attr name="iconSrc" format="reference"/>
+        <attr name="progressOrientation">
+            <enum name="vertical" value="1"/>
+            <enum name="horizontal" value="2"/>
+        </attr>
+    </declare-styleable>
+</resources>
